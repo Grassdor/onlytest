@@ -1,0 +1,14 @@
+@import "cfg.scss";
+@import "btn.scss";
+
+body {
+    font-family: "Arial";
+}
+.background {
+    background-image: url(../img/bg.png);
+    width: 100vw;
+    height: 56.25vw;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+}

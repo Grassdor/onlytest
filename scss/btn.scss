@@ -1,0 +1,91 @@
+.btn {
+    z-index: 2;
+    height: 40px;
+    width: min-content;
+    padding: 15px 15px;
+    background: #000;
+    display: flex;
+    position: absolute;
+    border-radius: 20px;
+    opacity: 0.7;
+    > div {
+        background-image: url(../img/open.svg);
+        height: 10px;
+        width: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 3;
+        
+    }
+    > p {
+        opacity: 0;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        width: 0;
+        
+    }
+    
+}
+
+.active {
+    > div {
+        background-image: url(../img/close.svg);
+        height: 10px;
+        width: 10px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 3;
+    }
+}
+
+#btn-1 {
+    background: #3877EE;
+    top: 21%;
+    left: 1373px;
+}
+#btn-2 {
+    background: #3877EE;
+    top: 29%;
+    left: 580px;
+}
+#btn-3 {
+    background: #6ABF4B;
+    top: 38%;
+    left: 1148px;
+}
+#btn-4 {
+    background: #6ABF4B;
+    top: 45%;
+    left: 687px;
+}
+#btn-5 {
+    background: #3877EE;
+    top: 44%;
+    left: 1414px;
+}
+#btn-6 {
+    background: #3877EE;
+    top: 59%;
+    left: 1081px;
+}
+#btn-7 {
+    background: #6ABF4B;
+    top: 63%;
+    left: 1306px;
+}
+#btn-8 {
+    background: #3877EE;
+    top: 69%;
+    left: 1593px;
+}
+#btn-9 {
+    background: #3877EE;
+    top: 69%;
+    left: 446px;
+}
+#btn-10 {
+    background: #6ABF4B;
+    top: 75%;
+    left: 1107px;
+}
