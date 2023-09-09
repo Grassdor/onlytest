@@ -1,14 +1,18 @@
 .btn {
     z-index: 2;
     height: 40px;
-    width: min-content;
+    width: 40px;
     padding: 15px 15px;
     background: #000;
     display: flex;
+    
+    align-items: center;
     position: absolute;
     border-radius: 20px;
     opacity: 0.7;
+    transition: all 0.7s;
     > div {
+        transition: all 0.5s;
         background-image: url(../img/open.svg);
         height: 10px;
         width: 10px;
@@ -18,6 +22,8 @@
         
     }
     > p {
+        
+        transition: all 0.5s;
         opacity: 0;
         color: #fff;
         font-size: 14px;
@@ -29,63 +35,74 @@
 }
 
 .active {
+    transition: all 0.5s;
+    width: 110px;
+    opacity: 1;
     > div {
+        transition: all 0.5s;
         background-image: url(../img/close.svg);
         height: 10px;
         width: 10px;
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: 0 50%;
         z-index: 3;
+    }
+    > p {
+        transition: all 0.5s;
+        margin-left: auto;
+        opacity: 1;
+        width: min-content;
     }
 }
 
 #btn-1 {
     background: #3877EE;
-    top: 21%;
-    left: 1373px;
+    top: 11.71875vw;
+    left: 71.510416vw;
 }
 #btn-2 {
     background: #3877EE;
-    top: 29%;
-    left: 580px;
+    top: 14.6875vw;
+    left: 30.2083vw;
 }
 #btn-3 {
     background: #6ABF4B;
-    top: 38%;
-    left: 1148px;
+    top: 21.0416vw;
+    left: 59.7916vw;
 }
 #btn-4 {
     background: #6ABF4B;
-    top: 45%;
-    left: 687px;
+    top: 25.10416vw;
+    left: 35.78125vw;
 }
 #btn-5 {
     background: #3877EE;
-    top: 44%;
-    left: 1414px;
+    top: 24.739583vw;
+    left: 73.64583vw;
 }
 #btn-6 {
     background: #3877EE;
-    top: 59%;
-    left: 1081px;
+    top: 32.760416vw;
+    left: 56.302083vw;
 }
 #btn-7 {
     background: #6ABF4B;
-    top: 63%;
-    left: 1306px;
+    top: 34.84375vw;
+    left: 68.02083vw;
 }
 #btn-8 {
     background: #3877EE;
-    top: 69%;
-    left: 1593px;
+    top: 37.135416vw;
+    left: 82.96875vw;
 }
 #btn-9 {
     background: #3877EE;
-    top: 69%;
-    left: 446px;
+    top: 37.1875vw;
+    left: 23.22916vw;
 }
 #btn-10 {
     background: #6ABF4B;
-    top: 75%;
-    left: 1107px;
+    top: 41.14583vw;
+    left: 57.65625vw;
 }
